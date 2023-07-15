@@ -6,7 +6,8 @@
 		"preview": "vite preview",
 		"build": "vite build",
 		"dev": "vite dev",
-		"lint": "eslint --max-warnings 0 --fix . && svelte-check"
+		"lint": "eslint --max-warnings 0 --fix . && svelte-check",
+		"ci": "npm i -f && npm run build"
 	},
 	"dependencies": {
 		"@auth/core": "^0.9.0",
